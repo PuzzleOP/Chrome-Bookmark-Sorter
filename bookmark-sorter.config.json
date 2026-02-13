@@ -19,125 +19,6 @@
           "name": "YouTube",
           "children": [
             {
-              "name": "Manga",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "pathContains": [
-                  "manga and reading sites",
-                  " > manga",
-                  "manhwa",
-                  "manhua",
-                  "novel"
-                ],
-                "mode": "all"
-              }
-            },
-            {
-              "name": "Anime",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "pathContains": [
-                  "movies/shows/anime > anime",
-                  "anime"
-                ],
-                "mode": "all"
-              }
-            },
-            {
-              "name": "Gaming",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "pathContains": [
-                  "youtube > games",
-                  "gaming",
-                  "dota",
-                  "elden ring mods",
-                  "hogwarts legacy mods"
-                ],
-                "mode": "all"
-              }
-            },
-            {
-              "name": "Programming & Tech",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "pathContains": [
-                  "programming",
-                  "youtube > tutorials",
-                  "data centar",
-                  "linux apps"
-                ],
-                "mode": "all"
-              }
-            },
-            {
-              "name": "Music",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "pathContains": [
-                  "youtube > songs",
-                  "songs",
-                  "music"
-                ],
-                "mode": "all"
-              }
-            },
-            {
-              "name": "Manga",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "keywords": [
-                  "manga",
-                  "manhwa",
-                  "manhua",
-                  "webtoon",
-                  "novel recap",
-                  "manga recap",
-                  "manhwa recap",
-                  "manhua recap",
-                  "chapter"
-                ],
-                "mode": "all"
-              }
-            },
-            {
-              "name": "Anime",
-              "match": {
-                "domains": [
-                  "youtube.com",
-                  "youtu.be"
-                ],
-                "keywords": [
-                  "anime",
-                  "isekai",
-                  "shonen",
-                  "shoujo",
-                  "amv",
-                  "anime opening",
-                  "anime ending"
-                ],
-                "mode": "all"
-              }
-            },
-            {
               "name": "Gaming",
               "match": {
                 "domains": [
@@ -145,16 +26,28 @@
                   "youtu.be"
                 ],
                 "keywords": [
-                  "game",
-                  "gaming",
                   "dota",
+                  "gaming",
+                  "gameplay",
+                  "let's play",
+                  "steam",
                   "valorant",
                   "league of legends",
                   "palworld",
                   "minecraft",
                   "elden ring",
                   "hogwarts legacy",
-                  "mod"
+                  "ark",
+                  "cs2",
+                  "counter-strike",
+                  "moba",
+                  "rpg",
+                  "fps",
+                  "simulator",
+                  "simulation",
+                  "mod",
+                  "kunkka",
+                  "invoker"
                 ],
                 "mode": "all"
               }
@@ -201,6 +94,188 @@
                   "audio",
                   "remix",
                   "live"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Manga",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "manga",
+                  "manhwa",
+                  "manhua",
+                  "webtoon",
+                  "novel recap",
+                  "manga recap",
+                  "manhwa recap",
+                  "manhua recap",
+                  "chapter"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Anime",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "anime",
+                  "isekai",
+                  "shonen",
+                  "shoujo",
+                  "amv",
+                  "anime opening",
+                  "anime ending"
+                ],
+                "excludeKeywords": [
+                  "dota",
+                  "gaming",
+                  "gameplay",
+                  "let's play",
+                  "steam",
+                  "valorant",
+                  "league of legends",
+                  "palworld",
+                  "minecraft",
+                  "elden ring",
+                  "hogwarts legacy",
+                  "ark",
+                  "cs2",
+                  "counter-strike",
+                  "moba",
+                  "rpg",
+                  "fps",
+                  "simulator",
+                  "simulation",
+                  "mod",
+                  "kunkka",
+                  "invoker"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Gaming",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "youtube > games",
+                  "gaming",
+                  "dota",
+                  "elden ring mods",
+                  "hogwarts legacy mods"
+                ],
+                "excludePathContains": [
+                  "organized >"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Programming & Tech",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "programming",
+                  "youtube > tutorials",
+                  "data centar",
+                  "linux apps"
+                ],
+                "excludePathContains": [
+                  "organized >"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Music",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "youtube > songs",
+                  "songs",
+                  "music"
+                ],
+                "excludePathContains": [
+                  "organized >"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Manga",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "manga and reading sites",
+                  " > manga",
+                  "manhwa",
+                  "manhua",
+                  "novel"
+                ],
+                "excludePathContains": [
+                  "organized >"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Anime",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "movies/shows/anime > anime",
+                  "youtube > anime"
+                ],
+                "excludeKeywords": [
+                  "dota",
+                  "gaming",
+                  "gameplay",
+                  "let's play",
+                  "steam",
+                  "valorant",
+                  "league of legends",
+                  "palworld",
+                  "minecraft",
+                  "elden ring",
+                  "hogwarts legacy",
+                  "ark",
+                  "cs2",
+                  "counter-strike",
+                  "moba",
+                  "rpg",
+                  "fps",
+                  "simulator",
+                  "simulation",
+                  "mod",
+                  "kunkka",
+                  "invoker"
+                ],
+                "excludePathContains": [
+                  "organized >"
                 ],
                 "mode": "all"
               }

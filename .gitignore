@@ -21,6 +21,8 @@ exports/
 sample-bookmarks.json
 live-profile*-accountbookmarks.json
 audit-*.json
+*-audit-*.json
+yt-anime-audit-*.json
 *.backup.json
 *AccountBookmarks*
 *Bookmarks*
