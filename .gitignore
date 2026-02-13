@@ -1,0 +1,32 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local outputs
+backups/
+backups-test/
+backups-test-local/
+exports/
+
+# Local bookmark datasets / audits (personal data)
+sample-bookmarks.json
+live-profile*-accountbookmarks.json
+audit-*.json
+*.backup.json
+*AccountBookmarks*
+*Bookmarks*
+unsorted-*.json
+unsorted-*.txt
+
+# Local environment
+.env
+.env.*

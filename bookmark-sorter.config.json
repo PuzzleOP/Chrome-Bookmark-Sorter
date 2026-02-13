@@ -1,0 +1,1544 @@
+{
+  "sourceRoots": [
+    "bookmark_bar",
+    "other",
+    "synced"
+  ],
+  "destinationRoot": "bookmark_bar",
+  "organizedFolderName": "Organized",
+  "includeEmptyFolders": true,
+  "defaultPath": [
+    "Unsorted",
+    "Needs Review"
+  ],
+  "categories": [
+    {
+      "name": "Watching",
+      "children": [
+        {
+          "name": "YouTube",
+          "children": [
+            {
+              "name": "Manga",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "manga and reading sites",
+                  " > manga",
+                  "manhwa",
+                  "manhua",
+                  "novel"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Anime",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "movies/shows/anime > anime",
+                  "anime"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Gaming",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "youtube > games",
+                  "gaming",
+                  "dota",
+                  "elden ring mods",
+                  "hogwarts legacy mods"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Programming & Tech",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "programming",
+                  "youtube > tutorials",
+                  "data centar",
+                  "linux apps"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Music",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "pathContains": [
+                  "youtube > songs",
+                  "songs",
+                  "music"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Manga",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "manga",
+                  "manhwa",
+                  "manhua",
+                  "webtoon",
+                  "novel recap",
+                  "manga recap",
+                  "manhwa recap",
+                  "manhua recap",
+                  "chapter"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Anime",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "anime",
+                  "isekai",
+                  "shonen",
+                  "shoujo",
+                  "amv",
+                  "anime opening",
+                  "anime ending"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Gaming",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "game",
+                  "gaming",
+                  "dota",
+                  "valorant",
+                  "league of legends",
+                  "palworld",
+                  "minecraft",
+                  "elden ring",
+                  "hogwarts legacy",
+                  "mod"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Programming & Tech",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "programming",
+                  "coding",
+                  "code",
+                  "java",
+                  "javascript",
+                  "python",
+                  "c#",
+                  "c++",
+                  "sql",
+                  "netbeans",
+                  "visual studio",
+                  "unity",
+                  "tutorial"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "Music",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ],
+                "keywords": [
+                  "official video",
+                  "lyrics",
+                  "song",
+                  "music",
+                  "album",
+                  "mix",
+                  "audio",
+                  "remix",
+                  "live"
+                ],
+                "mode": "all"
+              }
+            },
+            {
+              "name": "General",
+              "match": {
+                "domains": [
+                  "youtube.com",
+                  "youtu.be"
+                ]
+              }
+            }
+          ],
+          "match": {
+            "domains": [
+              "youtube.com",
+              "youtu.be"
+            ]
+          }
+        },
+        {
+          "name": "Anime Sites",
+          "match": {
+            "domains": [
+              "kissanime.com.ru",
+              "9animetv.to",
+              "www1.gogoanime.bid",
+              "hianime.to",
+              "crunchyroll.com",
+              "aniwatchtv.to",
+              "mangafire.to"
+            ]
+          }
+        },
+        {
+          "name": "Asian Drama",
+          "match": {
+            "domains": [
+              "kissasiantv.cx"
+            ]
+          }
+        },
+        {
+          "name": "TV Shows",
+          "match": {
+            "domains": [
+              "thewatchseries.to",
+              "primewire.ag",
+              "yidio.com",
+              "putlockerfree.sc",
+              "shadowhunters.com",
+              "radiotimes.com"
+            ]
+          }
+        },
+        {
+          "name": "Movies",
+          "match": {
+            "domains": [
+              "imdb.com",
+              "sflix.to",
+              "moviefone.com",
+              "popcornflix.com",
+              "primewire.ag"
+            ]
+          }
+        },
+        {
+          "name": "Streaming Platforms",
+          "match": {
+            "domains": [
+              "netflix.com",
+              "primevideo.com",
+              "hulu.com",
+              "disneyplus.com",
+              "max.com",
+              "twitch.tv",
+              "olympicchannel.com",
+              "aol.ca"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "youtube.com",
+          "youtu.be",
+          "kissanime.com.ru",
+          "9animetv.to",
+          "www1.gogoanime.bid",
+          "hianime.to",
+          "aniwatchtv.to",
+          "kissasiantv.cx",
+          "crunchyroll.com",
+          "thewatchseries.to",
+          "primewire.ag",
+          "yidio.com",
+          "putlockerfree.sc",
+          "imdb.com",
+          "sflix.to",
+          "moviefone.com",
+          "popcornflix.com",
+          "netflix.com",
+          "primevideo.com",
+          "mangafire.to",
+          "twitch.tv",
+          "olympicchannel.com",
+          "aol.ca",
+          "disneyplus.com",
+          "hulu.com",
+          "max.com"
+        ]
+      }
+    },
+    {
+      "name": "Work & Career",
+      "children": [
+        {
+          "name": "Jobs & Freelance",
+          "match": {
+            "domains": [
+              "linkedin.com",
+              "himalayas.app",
+              "upwork.com",
+              "freelancer.com",
+              "work.mercor.com",
+              "mercor.com",
+              "fiverr.com",
+              "wellfound.com",
+              "remoterocketship.com",
+              "weworkremotely.com",
+              "remoteok.com",
+              "remotive.com",
+              "jobs.lever.co",
+              "dynamitejobs.com",
+              "remote.com",
+              "euremotejobs.com",
+              "adevait.com"
+            ]
+          }
+        },
+        {
+          "name": "Business & Marketing",
+          "match": {
+            "domains": [
+              "inc.com",
+              "publer.com",
+              "skillshop.withgoogle.com",
+              "clipd.com",
+              "skillshop.docebosaas.com",
+              "skills.google"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "linkedin.com",
+          "himalayas.app",
+          "upwork.com",
+          "freelancer.com",
+          "work.mercor.com",
+          "mercor.com",
+          "fiverr.com",
+          "wellfound.com",
+          "remoterocketship.com",
+          "weworkremotely.com",
+          "remoteok.com",
+          "remotive.com",
+          "jobs.lever.co",
+          "dynamitejobs.com",
+          "inc.com",
+          "publer.com",
+          "skillshop.withgoogle.com",
+          "clipd.com",
+          "remote.com",
+          "euremotejobs.com",
+          "adevait.com",
+          "skillshop.docebosaas.com",
+          "skills.google"
+        ]
+      }
+    },
+    {
+      "name": "Shopping",
+      "children": [
+        {
+          "name": "Temu",
+          "match": {
+            "domains": [
+              "temu.com"
+            ]
+          }
+        },
+        {
+          "name": "Electronics & PC",
+          "match": {
+            "domains": [
+              "anhoch.com",
+              "anhoc.com",
+              "setec.mk",
+              "ddstore.mk",
+              "jvsnet.com.mk",
+              "galagomarket.com",
+              "vision.com.mk",
+              "istyle.mk",
+              "ananas.mk",
+              "neptun.mk",
+              "proxnet.mk"
+            ]
+          }
+        },
+        {
+          "name": "General Shopping",
+          "match": {
+            "domains": [
+              "amazon.com",
+              "amazon.co.uk",
+              "aliexpress.com",
+              "m.aliexpress.com",
+              "ebay.com"
+            ]
+          }
+        },
+        {
+          "name": "Fashion",
+          "match": {
+            "domains": [
+              "fashiongroup.com.mk",
+              "monaonline.com",
+              "sport-m.com.mk",
+              "lining.com.mk"
+            ]
+          }
+        },
+        {
+          "name": "Local Stores",
+          "children": [],
+          "match": {
+            "domains": [
+              "loging.mk",
+              "makedonika.mk",
+              "a1on.mk",
+              "sakamknigi.mk"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "temu.com",
+          "amazon.com",
+          "amazon.co.uk",
+          "aliexpress.com",
+          "m.aliexpress.com",
+          "ebay.com",
+          "anhoch.com",
+          "anhoc.com",
+          "setec.mk",
+          "ddstore.mk",
+          "jvsnet.com.mk",
+          "galagomarket.com",
+          "vision.com.mk",
+          "istyle.mk",
+          "ananas.mk",
+          "neptun.mk",
+          "proxnet.mk",
+          "fashiongroup.com.mk",
+          "monaonline.com",
+          "sport-m.com.mk",
+          "lining.com.mk",
+          "loging.mk",
+          "makedonika.mk",
+          "a1on.mk",
+          "sakamknigi.mk"
+        ]
+      }
+    },
+    {
+      "name": "Social & Communication",
+      "children": [
+        {
+          "name": "Messaging",
+          "match": {
+            "domains": [
+              "mail.google.com",
+              "messenger.com",
+              "facebook.com",
+              "discord.com",
+              "telegram.org",
+              "protonmail.com"
+            ]
+          }
+        },
+        {
+          "name": "Social Media Assets",
+          "match": {
+            "domains": [
+              "scontent-vie1-1.xx.fbcdn.net",
+              "fbcdn-sphotos-a-a.akamaihd.net",
+              "fbcdn-sphotos-b-a.akamaihd.net",
+              "i.redd.it",
+              "49.media.tumblr.com",
+              "25.media.tumblr.com",
+              "rebloggy.com",
+              "s-media-cache-ak0.pinimg.com"
+            ]
+          }
+        },
+        {
+          "name": "Reddit",
+          "match": {
+            "domains": [
+              "reddit.com"
+            ]
+          }
+        },
+        {
+          "name": "Social Platforms",
+          "children": [],
+          "match": {
+            "domains": [
+              "pinterest.com",
+              "tumblr.com",
+              "page.line.me",
+              "line.me",
+              "inflact.com"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "mail.google.com",
+          "messenger.com",
+          "facebook.com",
+          "reddit.com",
+          "discord.com",
+          "telegram.org",
+          "protonmail.com",
+          "scontent-vie1-1.xx.fbcdn.net",
+          "fbcdn-sphotos-a-a.akamaihd.net",
+          "fbcdn-sphotos-b-a.akamaihd.net",
+          "i.redd.it",
+          "49.media.tumblr.com",
+          "25.media.tumblr.com",
+          "rebloggy.com",
+          "pinterest.com",
+          "tumblr.com",
+          "page.line.me",
+          "line.me",
+          "inflact.com",
+          "s-media-cache-ak0.pinimg.com"
+        ]
+      }
+    },
+    {
+      "name": "Travel",
+      "match": {
+        "domains": [
+          "airbnb.com",
+          "booking.com",
+          "tripadvisor.com",
+          "skyscanner.com",
+          "kajak.mk",
+          "setra.mk",
+          "new.gigstix.com"
+        ]
+      },
+      "children": [
+        {
+          "name": "Booking & Transport",
+          "children": [],
+          "match": {
+            "domains": [
+              "airbnb.com",
+              "booking.com",
+              "tripadvisor.com",
+              "skyscanner.com",
+              "kajak.mk",
+              "setra.mk",
+              "new.gigstix.com"
+            ]
+          }
+        },
+        {
+          "name": "Vietnam Research",
+          "children": [],
+          "match": {
+            "domains": [
+              "google.com"
+            ],
+            "keywords": [
+              "ha giang",
+              "ha long",
+              "hoi an",
+              "hue",
+              "nha trang",
+              "ninh binh",
+              "sapa",
+              "moc chau",
+              "cao bang",
+              "can tho",
+              "an giang",
+              "dalat",
+              "vietnam"
+            ],
+            "mode": "all"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reading",
+      "children": [
+        {
+          "name": "Manhua",
+          "match": {
+            "domains": [
+              "manhuazone.com",
+              "manhuaplus.com",
+              "manhuaplus.org",
+              "asuracomic.net",
+              "flamecomics.xyz",
+              "battwo.com",
+              "iamthefatedvillain.com",
+              "manhuaus.org",
+              "manhuafast.com"
+            ]
+          }
+        },
+        {
+          "name": "Manhwa",
+          "match": {
+            "domains": [
+              "manhwatop.com",
+              "toonily.net",
+              "toonily.com",
+              "nightscans.net",
+              "realmscans.com",
+              "arcanescans.com",
+              "nightsup.net",
+              "asuratoon.com",
+              "legendofnorthernblade.com",
+              "sololeveling-ragnarok.com",
+              "survivaloftheswordking.com",
+              "dungeonodyssey.com",
+              "remonster.online",
+              "night-scans.com",
+              "dungeon-reset.com"
+            ]
+          }
+        },
+        {
+          "name": "Manga",
+          "match": {
+            "domains": [
+              "mangadex.org",
+              "manganelo.com",
+              "mangakatana.com",
+              "mangakakalot.com",
+              "ww6.mangakakalot.tv",
+              "1stkissmanga.io",
+              "mangabuddy.com",
+              "mangapanda.onl",
+              "mangacultivator.com",
+              "beta.mangaplex.com",
+              "aquamanga.com",
+              "mangas20.com",
+              "novelmic.com",
+              "kunmanga.com"
+            ]
+          }
+        },
+        {
+          "name": "Novel",
+          "children": [
+            {
+              "name": "Light Novel",
+              "match": {
+                "domains": [
+                  "wnmtl.org",
+                  "novelupdates.com",
+                  "j-novel.club",
+                  "lightnovelworld.co",
+                  "lightnovelworld.com"
+                ]
+              }
+            },
+            {
+              "name": "Web Novel",
+              "match": {
+                "domains": [
+                  "readnovelfull.com",
+                  "readnovelfull.me",
+                  "novelbin.com",
+                  "webnovel.com",
+                  "wuxiaworld.site",
+                  "wuxiaworld.com",
+                  "babelnovel.com",
+                  "freewebnovel.com",
+                  "frostfire10.wordpress.com",
+                  "freewebnovel.comenovel.com"
+                ]
+              }
+            }
+          ],
+          "match": {
+            "domains": [
+              "readnovelfull.com",
+              "readnovelfull.me",
+              "novelbin.com",
+              "webnovel.com",
+              "wnmtl.org",
+              "novelupdates.com",
+              "wuxiaworld.site",
+              "wuxiaworld.com",
+              "babelnovel.com",
+              "freewebnovel.com",
+              "freewebnovel.comenovel.com",
+              "lightnovelworld.co",
+              "lightnovelworld.com"
+            ],
+            "excludeDomains": [
+              "youtube.com",
+              "youtu.be",
+              "temu.com",
+              "linkedin.com",
+              "airbnb.com",
+              "imdb.com",
+              "mega.nz"
+            ]
+          }
+        },
+        {
+          "name": "Articles & Blogs",
+          "children": [],
+          "match": {
+            "domains": [
+              "researchgate.net",
+              "bbc.com",
+              "nytimes.com",
+              "ozy.com",
+              "providr.com",
+              "vesti.mk"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "manhuazone.com",
+          "manhuaplus.com",
+          "manhuaplus.org",
+          "asuracomic.net",
+          "flamecomics.xyz",
+          "battwo.com",
+          "iamthefatedvillain.com",
+          "manhuaus.org",
+          "manhuafast.com",
+          "manhwatop.com",
+          "toonily.net",
+          "toonily.com",
+          "nightscans.net",
+          "realmscans.com",
+          "arcanescans.com",
+          "nightsup.net",
+          "asuratoon.com",
+          "legendofnorthernblade.com",
+          "sololeveling-ragnarok.com",
+          "survivaloftheswordking.com",
+          "dungeonodyssey.com",
+          "remonster.online",
+          "mangadex.org",
+          "manganelo.com",
+          "mangakatana.com",
+          "mangakakalot.com",
+          "ww6.mangakakalot.tv",
+          "1stkissmanga.io",
+          "mangabuddy.com",
+          "mangapanda.onl",
+          "mangacultivator.com",
+          "beta.mangaplex.com",
+          "aquamanga.com",
+          "readnovelfull.com",
+          "readnovelfull.me",
+          "novelbin.com",
+          "webnovel.com",
+          "wnmtl.org",
+          "novelupdates.com",
+          "wuxiaworld.site",
+          "wuxiaworld.com",
+          "babelnovel.com",
+          "freewebnovel.com",
+          "freewebnovel.comenovel.com",
+          "lightnovelworld.co",
+          "lightnovelworld.com",
+          "night-scans.com",
+          "dungeon-reset.com",
+          "mangas20.com",
+          "novelmic.com",
+          "kunmanga.com",
+          "researchgate.net",
+          "bbc.com",
+          "nytimes.com",
+          "ozy.com",
+          "providr.com",
+          "vesti.mk"
+        ],
+        "excludeDomains": [
+          "youtube.com",
+          "youtu.be",
+          "temu.com",
+          "linkedin.com",
+          "airbnb.com",
+          "imdb.com",
+          "mega.nz"
+        ]
+      }
+    },
+    {
+      "name": "Gaming",
+      "children": [
+        {
+          "name": "Communities",
+          "match": {
+            "domains": [
+              "elitepvpers.com",
+              "steamcommunity.com",
+              "minecraftforum.net",
+              "playconquer.com",
+              "playconquer.se",
+              "kaoskrew.org",
+              "kapitalsin.com",
+              "byond.com",
+              "team-orbit.org",
+              "chivalrylobby-web.appspot.com"
+            ]
+          }
+        },
+        {
+          "name": "Mods & Fixes",
+          "match": {
+            "domains": [
+              "nexusmods.com",
+              "online-fix.me",
+              "cs.rin.ru",
+              "themoddingbungalo.com",
+              "devassets.com",
+              "technicpack.net"
+            ]
+          }
+        },
+        {
+          "name": "Dota",
+          "match": {
+            "domains": [
+              "dotacinema.com",
+              "playdota.com",
+              "howdoiplay.com",
+              "dotateam.me",
+              "dotamax.com",
+              "dotafire.com",
+              "counterpick.herokuapp.com",
+              "onur.github.io",
+              "dotabuff.com",
+              "joindota.com",
+              "dota2.com",
+              "cyborgmatt.com",
+              "truepicker.com",
+              "zeeshanarshad.com",
+              "bigpoint-battle.com",
+              "web.archive.org"
+            ]
+          }
+        },
+        {
+          "name": "Torrents",
+          "match": {
+            "domains": [
+              "piratebay.surf",
+              "thepiratebay.org",
+              "1337x.to",
+              "1377x.to",
+              "rarbg.is",
+              "kat.cr",
+              "proxtpb.art",
+              "gog-games.to",
+              "steamrip.com",
+              "dodi-repacks.site",
+              "fitgirl-repacks.site",
+              "elamigos.site",
+              "m4ckd0ge-repacks.site",
+              "r-roms.github.io",
+              "rentry.org",
+              "fmhy.net",
+              "fmhy.pages.dev",
+              "meta.m.wikimedia.org"
+            ]
+          }
+        },
+        {
+          "name": "DnD",
+          "match": {
+            "domains": [
+              "roll20.net",
+              "dnd5e.wikidot.com",
+              "dnd-spells.com",
+              "jsigvard.com"
+            ]
+          }
+        },
+        {
+          "name": "Game Stores",
+          "children": [],
+          "match": {
+            "domains": [
+              "gameflip.com",
+              "g2a.com",
+              "humblebundle.com",
+              "store.steampowered.com",
+              "freetrial.ubisoft.com",
+              "airconsole.com",
+              "igdb.com"
+            ]
+          }
+        },
+        {
+          "name": "MMO & Servers",
+          "children": [],
+          "match": {
+            "domains": [
+              "evilwarrior.com",
+              "faerytaleonline.com",
+              "mortalonline.com",
+              "heroes-wow.com",
+              "wowcircle.com",
+              "tekkitserverlist.com",
+              "uberent.com",
+              "the-witness.net",
+              "picroma.com",
+              "hahbyondwiki.wikispaces.com"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "elitepvpers.com",
+          "steamcommunity.com",
+          "minecraftforum.net",
+          "nexusmods.com",
+          "online-fix.me",
+          "cs.rin.ru",
+          "dotacinema.com",
+          "playdota.com",
+          "howdoiplay.com",
+          "piratebay.surf",
+          "thepiratebay.org",
+          "1337x.to",
+          "roll20.net",
+          "dnd5e.wikidot.com",
+          "dnd-spells.com",
+          "kaoskrew.org",
+          "kapitalsin.com",
+          "byond.com",
+          "team-orbit.org",
+          "chivalrylobby-web.appspot.com",
+          "themoddingbungalo.com",
+          "devassets.com",
+          "technicpack.net",
+          "dotateam.me",
+          "dotamax.com",
+          "dotafire.com",
+          "counterpick.herokuapp.com",
+          "onur.github.io",
+          "dotabuff.com",
+          "joindota.com",
+          "dota2.com",
+          "cyborgmatt.com",
+          "truepicker.com",
+          "zeeshanarshad.com",
+          "bigpoint-battle.com",
+          "1377x.to",
+          "rarbg.is",
+          "kat.cr",
+          "proxtpb.art",
+          "gog-games.to",
+          "steamrip.com",
+          "dodi-repacks.site",
+          "fitgirl-repacks.site",
+          "elamigos.site",
+          "m4ckd0ge-repacks.site",
+          "r-roms.github.io",
+          "rentry.org",
+          "fmhy.net",
+          "fmhy.pages.dev",
+          "meta.m.wikimedia.org",
+          "jsigvard.com",
+          "gameflip.com",
+          "g2a.com",
+          "humblebundle.com",
+          "store.steampowered.com",
+          "freetrial.ubisoft.com",
+          "airconsole.com",
+          "igdb.com",
+          "evilwarrior.com",
+          "faerytaleonline.com",
+          "mortalonline.com",
+          "heroes-wow.com",
+          "wowcircle.com",
+          "tekkitserverlist.com",
+          "uberent.com",
+          "the-witness.net",
+          "web.archive.org",
+          "picroma.com",
+          "hahbyondwiki.wikispaces.com"
+        ],
+        "excludeDomains": [
+          "9gag.com",
+          "memecenter.com",
+          "collegehumor.com"
+        ]
+      }
+    },
+    {
+      "name": "Programming & Tech",
+      "children": [
+        {
+          "name": "AI Tools",
+          "match": {
+            "domains": [
+              "openai.com",
+              "chatgpt.com",
+              "claude.ai",
+              "anthropic.com",
+              "perplexity.ai",
+              "poe.com",
+              "huggingface.co",
+              "21st.dev",
+              "deepseek.com",
+              "gemini.google.com",
+              "grok.com",
+              "cursor.com",
+              "t3.chat",
+              "openart.ai",
+              "meta.ai",
+              "rube.app",
+              "composio.dev"
+            ]
+          }
+        },
+        {
+          "name": "Game Dev & Unity",
+          "match": {
+            "domains": [
+              "assetstore.unity.com",
+              "learn.unity.com",
+              "unity3d.com",
+              "ore.spongepowered.org",
+              "forums.technicpack.net",
+              "textures.com",
+              "romannurik.github.io",
+              "dotnet.microsoft.com",
+              "devblogs.microsoft.com",
+              "telerik.com",
+              "syncfusion.com",
+              "godotengine.org",
+              "forums.unrealengine.com",
+              "scirra.com",
+              "stencyl.com",
+              "yoyogames.com",
+              "construct.net",
+              "blitzbasic.com",
+              "sauropodstudio.com",
+              "esenthel.com",
+              "doc.ethanonengine.com",
+              "freemmorpgmaker.com",
+              "torque-game-builder.en.malavida.com",
+              "monkeycoder.co.nz",
+              "slant.co",
+              "forums.indiegamer.com",
+              "technicpack.net",
+              "conquer.wiki",
+              "cooldown.io",
+              "naimcommand.blogspot.mk",
+              "code.google.com",
+              "devassets.com"
+            ]
+          },
+          "children": [
+            {
+              "name": "Textures & Assets",
+              "children": [],
+              "match": {
+                "domains": [
+                  "assetstore.unity.com",
+                  "textures.com",
+                  "romannurik.github.io"
+                ]
+              }
+            },
+            {
+              "name": "Unity Code & Docs",
+              "children": [],
+              "match": {
+                "domains": [
+                  "learn.unity.com",
+                  "unity3d.com",
+                  "dotnet.microsoft.com",
+                  "devblogs.microsoft.com",
+                  "telerik.com",
+                  "syncfusion.com"
+                ]
+              }
+            },
+            {
+              "name": "Engines & Frameworks",
+              "children": [],
+              "match": {
+                "domains": [
+                  "godotengine.org",
+                  "forums.unrealengine.com",
+                  "scirra.com",
+                  "stencyl.com",
+                  "yoyogames.com",
+                  "construct.net",
+                  "blitzbasic.com",
+                  "sauropodstudio.com",
+                  "esenthel.com",
+                  "doc.ethanonengine.com",
+                  "freemmorpgmaker.com",
+                  "torque-game-builder.en.malavida.com",
+                  "monkeycoder.co.nz",
+                  "slant.co",
+                  "forums.indiegamer.com"
+                ]
+              }
+            },
+            {
+              "name": "Modding & Toolchains",
+              "children": [],
+              "match": {
+                "domains": [
+                  "ore.spongepowered.org",
+                  "forums.technicpack.net",
+                  "technicpack.net",
+                  "conquer.wiki",
+                  "cooldown.io",
+                  "naimcommand.blogspot.mk",
+                  "code.google.com",
+                  "devassets.com"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "Software Engineering",
+          "match": {
+            "domains": [
+              "github.com",
+              "stackoverflow.com",
+              "msdn.microsoft.com",
+              "developers.google.com",
+              "docs.google.com",
+              "baeldung.com",
+              "digitalocean.com",
+              "fossbytes.com",
+              "learn.microsoft.com",
+              "kali.org",
+              "curl.haxx.se",
+              "tutorialspoint.com",
+              "medium.com",
+              "medium.freecodecamp.org",
+              "programiz.com",
+              "geeksforgeeks.org",
+              "coolcheatsheet.com",
+              "projecteuler.net",
+              "rosettacode.org",
+              "cs.lmu.edu",
+              "coderanch.com",
+              "alanzucconi.com",
+              "tuhdo.github.io",
+              "wiki.debian.org",
+              "support.microsoft.com",
+              "developer.android.com",
+              "gitlab.com",
+              "shell.cloud.google.com",
+              "dev.to",
+              "towardsdatascience.com",
+              "quantum-computing.ibm.com",
+              "search.arin.net",
+              "pcmag.com",
+              "makeuseof.com",
+              "technotification.com",
+              "quora.com",
+              "circuito.io",
+              "zlib.net",
+              "dreamincode.net",
+              "avaloniaui.net",
+              "csd.uoc.gr",
+              "elementor.techeshta.com",
+              "nlpprogress.com",
+              "banditoth.net",
+              "gamefront.com"
+            ]
+          }
+        },
+        {
+          "name": "Cybersecurity",
+          "children": [],
+          "match": {
+            "domains": [
+              "rohitab.com",
+              "hack-hour.blogspot.com",
+              "hackingstreet.blogspot.com",
+              "waziristanihaxor.blogspot.mk",
+              "securityxploded.com",
+              "l33ts.org",
+              "backtracktutorials.com",
+              "hackthedark.blogspot.mk",
+              "antihackingtutorials.blogspot.com",
+              "thc.org",
+              "hackinglikeapro.blogspot.mk",
+              "openbiometrics.org",
+              "gchq.github.io",
+              "cybrary.it",
+              "arstechnica.com",
+              "kali.org",
+              "techworm.net",
+              "instructables.com",
+              "removeicloudlock.co",
+              "codingsec.net",
+              "peeker.kilu.de",
+              "oraie.com"
+            ]
+          }
+        },
+        {
+          "name": "Cloud & Infrastructure",
+          "children": [],
+          "match": {
+            "domains": [
+              "dashboard.indifferentbroccoli.com",
+              "cyberpanel.net",
+              "selfhst.store",
+              "puzzleop.app.n8n.cloud",
+              "iowin.net",
+              "lemmy.dbzer0.com",
+              "app.learney.me"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "github.com",
+          "stackoverflow.com",
+          "assetstore.unity.com",
+          "learn.unity.com",
+          "unity3d.com",
+          "ore.spongepowered.org",
+          "forums.technicpack.net",
+          "developers.google.com",
+          "docs.google.com",
+          "msdn.microsoft.com",
+          "baeldung.com",
+          "digitalocean.com",
+          "fossbytes.com",
+          "learn.microsoft.com",
+          "kali.org",
+          "curl.haxx.se",
+          "tutorialspoint.com",
+          "openai.com",
+          "chatgpt.com",
+          "claude.ai",
+          "anthropic.com",
+          "perplexity.ai",
+          "poe.com",
+          "huggingface.co",
+          "21st.dev",
+          "deepseek.com",
+          "gemini.google.com",
+          "grok.com",
+          "cursor.com",
+          "t3.chat",
+          "openart.ai",
+          "meta.ai",
+          "rube.app",
+          "composio.dev",
+          "dotnet.microsoft.com",
+          "devblogs.microsoft.com",
+          "telerik.com",
+          "syncfusion.com",
+          "godotengine.org",
+          "forums.unrealengine.com",
+          "scirra.com",
+          "stencyl.com",
+          "yoyogames.com",
+          "construct.net",
+          "blitzbasic.com",
+          "sauropodstudio.com",
+          "esenthel.com",
+          "doc.ethanonengine.com",
+          "freemmorpgmaker.com",
+          "torque-game-builder.en.malavida.com",
+          "monkeycoder.co.nz",
+          "slant.co",
+          "forums.indiegamer.com",
+          "textures.com",
+          "romannurik.github.io",
+          "technotification.com",
+          "medium.com",
+          "medium.freecodecamp.org",
+          "programiz.com",
+          "geeksforgeeks.org",
+          "coolcheatsheet.com",
+          "projecteuler.net",
+          "rosettacode.org",
+          "cs.lmu.edu",
+          "coderanch.com",
+          "alanzucconi.com",
+          "tuhdo.github.io",
+          "wiki.debian.org",
+          "support.microsoft.com",
+          "developer.android.com",
+          "gitlab.com",
+          "shell.cloud.google.com",
+          "dev.to",
+          "towardsdatascience.com",
+          "quantum-computing.ibm.com",
+          "search.arin.net",
+          "pcmag.com",
+          "makeuseof.com",
+          "quora.com",
+          "circuito.io",
+          "zlib.net",
+          "rohitab.com",
+          "hack-hour.blogspot.com",
+          "hackingstreet.blogspot.com",
+          "waziristanihaxor.blogspot.mk",
+          "securityxploded.com",
+          "l33ts.org",
+          "backtracktutorials.com",
+          "hackthedark.blogspot.mk",
+          "antihackingtutorials.blogspot.com",
+          "thc.org",
+          "hackinglikeapro.blogspot.mk",
+          "openbiometrics.org",
+          "gchq.github.io",
+          "cybrary.it",
+          "arstechnica.com",
+          "dashboard.indifferentbroccoli.com",
+          "cyberpanel.net",
+          "selfhst.store",
+          "puzzleop.app.n8n.cloud",
+          "iowin.net",
+          "techworm.net",
+          "instructables.com",
+          "removeicloudlock.co",
+          "codingsec.net",
+          "peeker.kilu.de",
+          "oraie.com",
+          "dreamincode.net",
+          "avaloniaui.net",
+          "csd.uoc.gr",
+          "elementor.techeshta.com",
+          "nlpprogress.com",
+          "banditoth.net",
+          "gamefront.com",
+          "lemmy.dbzer0.com",
+          "app.learney.me"
+        ]
+      }
+    },
+    {
+      "name": "Memes & Fun",
+      "match": {
+        "domains": [
+          "9gag.com",
+          "memecenter.com",
+          "collegehumor.com",
+          "buzzfeed.com",
+          "knowable.com",
+          "dorkly.com",
+          "tickld.com",
+          "someecards.com",
+          "whalethen.com",
+          "img-9gag-fun.9cache.com",
+          "img.pr0gramm.com",
+          "img.buzzfeed.com",
+          "brobible.com",
+          "funpings.com",
+          "io9.gizmodo.com",
+          "bash.org"
+        ],
+        "keywords": [
+          "meme",
+          "funny",
+          "humor",
+          "joke",
+          "fails",
+          "comedy clip",
+          "gif",
+          "fun"
+        ]
+      }
+    },
+    {
+      "name": "Personal",
+      "children": [
+        {
+          "name": "Cooking",
+          "match": {
+            "keywords": [
+              "recipe",
+              "cooking",
+              "kitchen",
+              "food"
+            ]
+          }
+        },
+        {
+          "name": "School",
+          "match": {
+            "keywords": [
+              "school",
+              "class",
+              "course",
+              "study",
+              "college",
+              "udacity"
+            ],
+            "domains": [
+              "mon.gov.mk"
+            ]
+          }
+        },
+        {
+          "name": "Productivity & Utilities",
+          "children": [],
+          "match": {
+            "domains": [
+              "pixlr.com",
+              "humanbenchmark.com",
+              "figma.com",
+              "simplenote.com",
+              "wordpress.org"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "keywords": [
+          "recipe",
+          "cooking",
+          "school",
+          "class",
+          "course",
+          "study"
+        ]
+      }
+    },
+    {
+      "name": "Research & Utilities",
+      "children": [
+        {
+          "name": "Google Search Results",
+          "children": [],
+          "match": {
+            "domains": [
+              "google.com"
+            ],
+            "urlContains": [
+              "/search?",
+              "/imgres"
+            ],
+            "mode": "all"
+          }
+        },
+        {
+          "name": "Browser Pages",
+          "children": [],
+          "match": {
+            "urlContains": [
+              "chrome://",
+              "edge://"
+            ]
+          }
+        },
+        {
+          "name": "Local Files",
+          "children": [],
+          "match": {
+            "urlContains": [
+              "file:///"
+            ]
+          }
+        },
+        {
+          "name": "Cloud Storage",
+          "children": [],
+          "match": {
+            "domains": [
+              "drive.google.com",
+              "mega.nz"
+            ]
+          }
+        },
+        {
+          "name": "Link Indexes",
+          "children": [],
+          "match": {
+            "domains": [
+              "fmhy.net",
+              "fmhy.pages.dev",
+              "rentry.org"
+            ]
+          }
+        }
+      ],
+      "match": {
+        "domains": [
+          "google.com",
+          "drive.google.com",
+          "mega.nz",
+          "newtab",
+          "fmhy.net",
+          "fmhy.pages.dev",
+          "rentry.org"
+        ],
+        "urlContains": [
+          "chrome://",
+          "file:///"
+        ]
+      }
+    }
+  ]
+}

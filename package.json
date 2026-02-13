@@ -1,0 +1,9 @@
+{
+  "name": "bookmark-sorter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rule-based Chrome bookmark organizer for Windows.",
+  "scripts": {
+    "sort": "node bookmark-sorter.js"
+  }
+}
